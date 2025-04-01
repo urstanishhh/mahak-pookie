@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mahak's Pookie Page</title>
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        h1 {
+            color: #ff69b4;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #ffb6c1;
+            margin-bottom: 10px;
+        }
+        
+        .doll {
+            position: absolute;
+            width: 100px;
+        }
+        
+        .doll-left {
+            left: 50px;
+            top: 10px;
+        }
+        
+        .doll-right {
+            right: 50px;
+            top: 10px;
+        }
+        
+        .ribbon {
+            width: 100%;
+            height: 30px;
+            background: linear-gradient(to right, #ffb6c1, #ff69b4, #ffb6c1);
+            margin: 20px 0;
+            position: relative;
+            border-radius: 5px;
+            box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+        }
+        
+        .ribbon:before, .ribbon:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            top: -10px;
+        }
+        
+        .ribbon:before {
+            border-width: 10px 15px 0 0;
+            border-color: #d45a7f transparent transparent transparent;
+            left: 0;
+        }
+        
+        .ribbon:after {
+            border-width: 10px 0 0 15px;
+            border-color: #d45a7f transparent transparent transparent;
+            right: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(255,105,180,0.3);
+            position: relative;
+            border: 2px dashed #ffb6c1;
+        }
+        
+        .container:before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 2px solid #ff69b4;
+            border-radius: 20px;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        
+        .reasons {
+            column-count: 2;
+            column-gap: 30px;
+        }
+        
+        .reason {
+            background-color: #fff9fa;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border-left: 5px solid #ff69b4;
+            break-inside: avoid;
+            box-shadow: 0 2px 3px rgba(255,182,193,0.5);
+            position: relative;
+        }
+        
+        .reason:before {
+            content: "❤";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #ff69b4;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #ff69b4;
+            font-size: 1.2em;
+        }
+        
+        .hearts {
+            position: absolute;
+            font-size: 20px;
+            color: #ff69b4;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://i.imgur.com/7QZ4qyP.png" alt="Doll" class="doll doll-left">
+            <img src="https://i.imgur.com/7QZ4qyP.png" alt="Doll" class="doll doll-right">
+            <h1>Mahak's Pookie Page</h1>
+            <div class="ribbon"></div>
+        </div>
+        
+        <div class="reasons">
+            <div class="reason">Your smile lights up the world.</div>
+            <div class="reason">Your eyes hold the universe within them.</div>
+            <div class="reason">The way your hair moves is mesmerizing.</div>
+            <div class="reason">Your natural beauty is effortless.</div>
+            <div class="reason">You look stunning in every color.</div>
+            <div class="reason">Your lips carry the sweetest words.</div>
+            <div class="reason">The way you laugh is music to the ears.</div>
+            <div class="reason">Your presence turns heads without even trying.</div>
+            <div class="reason">Your skin glows like the morning sun.</div>
+            <div class="reason">Even when you think you look simple, you shine.</div>
+            <div class="reason">Your heart is filled with kindness.</div>
+            <div class="reason">You always wish the best for others.</div>
+            <div class="reason">You spread positivity wherever you go.</div>
+            <div class="reason">Your soul is pure and full of love.</div>
+            <div class="reason">You care deeply about the people you love.</div>
+            <div class="reason">You never hesitate to help someone in need.</div>
+            <div class="reason">Your warmth makes people feel safe.</div>
+            <div class="reason">You inspire others just by being yourself.</div>
+            <div class="reason">Your honesty makes you shine.</div>
+            <div class="reason">Your love is unconditional and real.</div>
+            <div class="reason">The way you talk makes people listen.</div>
+            <div class="reason">You can turn a bad day into a good one.</div>
+            <div class="reason">Your presence makes everything better.</div>
+            <div class="reason">You have a natural elegance.</div>
+            <div class="reason">The way you express yourself is beautiful.</div>
+            <div class="reason">You make even simple things look graceful.</div>
+            <div class="reason">Your energy is magnetic.</div>
+            <div class="reason">You have a glow that no makeup can create.</div>
+            <div class="reason">Your beauty is timeless.</div>
+            <div class="reason">You don't need to try to be beautiful—you just are.</div>
+            <div class="reason">You are strong even when life gets tough.</div>
+            <div class="reason">You keep going even when things are hard.</div>
+            <div class="reason">You don't let struggles define you.</div>
+            <div class="reason">Your confidence makes you even more attractive.</div>
+            <div class="reason">You embrace who you are with pride.</div>
+            <div class="reason">You don't compare yourself to others—you are unique.</div>
+            <div class="reason">Your mind is as powerful as your heart.</div>
+            <div class="reason">You are not afraid to stand up for what's right.</div>
+            <div class="reason">You are brave in ways you don't even realize.</div>
+            <div class="reason">You turn pain into growth and keep shining.</div>
+            <div class="reason">You make people smile without even trying.</div>
+            <div class="reason">You inspire people to be better.</div>
+            <div class="reason">You bring out the best in those around you.</div>
+            <div class="reason">You are unforgettable in the best way.</div>
+            <div class="reason">People feel lucky to know you.</div>
+            <div class="reason">You leave a mark on every heart you touch.</div>
+            <div class="reason">You make love feel real and pure.</div>
+            <div class="reason">You make life more beautiful just by existing.</div>
+            <div class="reason">You are one of a kind, and that's what makes you perfect.</div>
+        </div>
+        
+        <div class="ribbon"></div>
+        
+        <div class="footer">
+            You are beautiful, inside and out, today, tomorrow, and forever.<br>
+            You don't just look beautiful—you ARE beautiful. Never forget that. ❤️
+        </div>
+    </div>
+    
+    <script>
+        // Create floating hearts
+        function createHearts() {
+            const container = document.querySelector('.container');
+            for (let i = 0; i < 20; i++) {
+                const heart = document.createElement('div');
+                heart.className = 'hearts';
+                heart.innerHTML = '❤';
+                heart.style.left = Math.random() * 100 + '%';
+                heart.style.top = Math.random() * 100 + '%';
+                heart.style.animationDelay = Math.random() * 3 + 's';
+                container.appendChild(heart);
+            }
+        }
+        
+        window.onload = createHearts;
+    </script>
+</body>
+</html>
